@@ -1,0 +1,315 @@
+
+body {
+	margin:0px;
+	padding: 0px
+	background-color:pink;
+}
+
+
+#Blackgroud {
+	height: 100vh;
+	width: 100%;
+	position: absolute;
+	overflow: hidden;
+
+}
+
+#Blackgroud img {
+	height: 120vh;
+	width: 105%;
+	/*-webkit-filter:blur(20px);*/
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	z-index:1;
+
+}
+
+#BlackgroudLayer {
+
+  height: 100vh;
+    width: 100%;
+    /*background-color: rgba(0,0,0,.2);*/
+    position: absolute;
+    z-index: 99;
+}
+#Player{
+    width: 25%;
+    background-color:rgb(127, 255, 0,.6);
+    border-radius: 15px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 999;
+}
+#MusicImage img{
+    height: 180px;
+    width: 100%;
+    margin-top: -5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#Player{
+    padding: 25px;
+    color:#333;
+}
+#songTitle{
+    width:300px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 18px;
+    position: absolute;
+    top:60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#buttons{
+    height: 50px;
+    width: 100%;
+    margin-top: 50px;
+    position:relative;
+    top:10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#PlayB,#Next,#PreB{
+    width: 50px;
+    height: 50px;
+    border: 0;
+    background-color:royalblue;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#Next{
+    width: 30px;
+    height: 30px;
+    left: 70%;
+}
+#PreB{
+    width: 30px;
+    height: 30px;
+    left: 30%;
+}
+#PlayB img,#Next img,#PreB img{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#SeekBar{
+    width: 250px;
+    height: 5px;
+    background-color:gray;
+    display: flex;
+    border-radius: 50px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+#fill{
+    height: 5vh;
+    background-color:royalblue;
+    border-radius: 20px;
+}
+#handle{
+    width: 8px;
+    height: 8px;
+    background-color:royalblue;
+    border-radius: 50%;
+    margin-left: -5px;
+    transform: scale(2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body{
+	background: linear-gradient(rgb(97, 204, 175), rgb(206, 227, 206,0.6));
+	background-repeat: no-repeat;
+	height: 600px;
+
+}
+
+
+.wrapper{
+	background: lightgrey;
+	height: 90px;
+}
+nav{
+	background-color: rgba(211,211,211,0.6);
+	height:80px;
+	padding-left: 10px;
+	padding-top: 10px;
+	width: 100%;
+
+
+
+}
+
+#DBar{
+height: 10px;
+background-color: gray;
+width: 400px;
+margin-left: 200px;
+border-color: white;
+border-style: solid;
+border-width: 5px;
+}
+
+#buttons{
+ margin-left: 200px;
+margin-top: 6px
+}
+#progresBar{
+	position: absolute;
+	height: 10px;
+	margin-left: 205px;
+	background-color: rgb(206, 227, 206);
+	width: 0px;
+	margin-top: 5px;
+
+
+
+}
+.PlayButton{
+	background-color: rgba(211,211,211,0.6);
+	border:none;
+	height:32px;
+	width: 32px;
+	background:url("images/playBu.jpg") ;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+.muteButton{
+	background-color: rgba(211,211,211,0.6);
+	border:none;
+	height:32px;
+	width:32px;
+	background: url("images/noVolium.jpg") ;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.muteButton:active , .PlayButton:active{
+position: relative;
+top:2px;
+}*/
